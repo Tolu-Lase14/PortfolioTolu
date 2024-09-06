@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+  font-family: 'Nerko One', cursive;
+  color: #333;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: rgb(212, 180, 242);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-family: 'Sevillana', cursive;
+  font-size: 24px;
+  color: #3498db;
+}
+
+.collapse ul li a {
+  font-family: 'Sevillana', cursive;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 18px;
+  margin-right: 15px;
+  color: #2980b9 !important;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #1abc9c !important;
+}
+
+.container {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1.welcome {
+  font-family: 'Sevillana', cursive;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  font-size: 36px;
+  text-align: center;
+}
+
+.me {
+  height: 650px;
+  width: 560px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+  display: block;
+  margin: 20px auto;
+}
+
+h3, p {
+  font-family: 'Nerko One', cursive;
+  color: #2c3e50;
+}
+
+.font-italic {
+  font-style: italic;
+  color: #8e44ad;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #e3f2fd;
+}
+
+.navbar-brand {
+  font-family: 'Sevillana', cursive;
+  color: #007bff;
+}
+
+.nav-link {
+  color: #007bff !important;
+}
+
+.nav-link:hover {
+  color: #0056b3 !important;
+  text-decoration: underline;
+}
+
+/* Images */
+div a img {
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+div a img:hover {
+  transform: scale(1.05);
+}
+
+footer .footer {
+  margin: 0 auto;  
+  background-color: cornsilk;
+  height: 200px;
+  width: 50%;
+}it init
+
+.footer p h2 {
+  font-family: 'Nerko One', cursive;
+  color: #2c3e50;
+}
+
+footer {
+  display: flex;
+  /* justify-content: space-evenly; */
+
+}
